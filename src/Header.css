@@ -1,0 +1,45 @@
+.header{
+    position: sticky;
+    top: 0;         /*for the header to stick*/
+    display: flex; /*to make everything go in a row */
+    background-color: white;
+    justify-content: space-evenly; /*pushed things to middle */
+    border-bottom: 0.1px solid lightgray; /*little line border*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.header_left{
+    display: flex; /*to make everything go in a row */
+}
+
+.header_left > img {
+    object-fit: contain;
+    height:40px;
+    margin-right : 10px; /*the image was touching the search input */
+}
+
+
+
+.header_search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+    background-color: #eef3f8;
+}
+
+.header_search > input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header_right{
+    display:flex;
+}
